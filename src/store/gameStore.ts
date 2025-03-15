@@ -9,7 +9,7 @@ interface Tile {
 }
 
 // Tworzymy funkcję `createGameStore`, która zwraca obiekt przechowujący stan gry
-const createGameStore = () => {
+export const createGameStore = () => {
   const store = {
     tiles: [] as Tile[], // Lista kafelków (kart) w grze
     attempts: 0, // Liczba prób gracza
